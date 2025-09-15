@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Etkinlik Website 🎉
 
-## Getting Started
+Modern ve interaktif bir etkinlik web sitesi. Next.js, TypeScript, Tailwind CSS ve Framer Motion ile geliştirilmiştir.
 
-First, run the development server:
+## ✨ Özellikler
 
+- 🎨 Modern ve responsive tasarım
+- ⚡ Hızlı performans (Next.js 15)
+- 🎭 Smooth animasyonlar (Framer Motion)
+- 🎯 TypeScript desteği
+- 🎪 Interaktif UI bileşenleri
+- 📱 Mobil uyumlu tasarım
+
+## 🚀 Kurulum
+
+1. Projeyi klonlayın:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/metabtw/etkinlik-website.git
+cd etkinlik-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Bağımlılıkları yükleyin:
+```bash
+npm install
+# veya
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+# veya
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-## Learn More
+## 🛠️ Teknolojiler
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 15
+- **Dil:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animasyonlar:** Framer Motion
+- **UI Bileşenleri:** shadcn/ui
+- **İkonlar:** Lucide React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Proje Yapısı
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+etkinlik-website/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   └── ui/
+│   └── lib/
+│       └── utils.ts
+├── public/
+└── ...
+```
 
-## Deploy on Vercel
+## 🎯 Sayfalar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Ana Sayfa:** Hero bölümü, konuşmacılar, program ve sponsorlar
+- **Responsive Design:** Tüm cihazlarda mükemmel görünüm
+- **Animasyonlar:** Kullanıcı deneyimini artıran smooth geçişler
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Katkıda Bulunma
+
+1. Bu repoyu fork edin
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+## 📞 İletişim
+
+Proje Sahibi: [@metabtw](https://github.com/metabtw)
+
+Proje Linki: [https://github.com/metabtw/etkinlik-website](https://github.com/metabtw/etkinlik-website)
+
+---
+
+⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
